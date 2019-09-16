@@ -1,0 +1,29 @@
+.title {
+  display:flex;
+  background-color:black;
+  height:50px;
+  position:relative;
+  left:50%;
+  top: 50%;
+  transform:translate(-50%, -50%);
+}
+
+.titlecontainer {
+  display:flex;
+  background-color:black;
+  color:white;
+  height: 235px;
+  width: 100%;
+  position:fixed;
+  left:50%;
+  top: 50%;
+  transform:translate(-50%, -50%);
+}
+
+.bodyp {
+  display:flex;
+  width:100%;
+  position:absolute;
+  top:0;
+  left:0;
+}

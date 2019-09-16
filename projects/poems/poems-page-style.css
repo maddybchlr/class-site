@@ -1,0 +1,9 @@
+a {
+  font-family: Trebuchet MS;
+  color: slateblue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

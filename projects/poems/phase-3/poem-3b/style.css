@@ -1,0 +1,117 @@
+.poemcontainer {
+  display:flex;
+  flex-direction:row;
+  background-color:linen;
+  height:300px;
+  width:11660px;
+}
+
+.stanza {
+  display:flex;
+  background-color:white;
+  border:2px solid white;
+  height:220px;
+  width: 240px;
+  margin:0px;
+  padding:40px;
+}
+
+.titleauthor {
+  border:2px solid white;
+  height:85px;
+  width:190px;
+  position:fixed;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+}
+
+.box1 {
+  background-color:slateblue;
+  height:50px;
+  width:50px;
+  position:fixed;
+  top:60px;
+  left:180px;
+}
+
+.box2 {
+  background-color:slateblue;
+  height:50px;
+  width:50px;
+  position:fixed;
+  top:100px;
+  right:350px;
+}
+
+.box3 {
+  background-color:slateblue;
+  height:50px;
+  width:50px;
+  position:fixed;
+  bottom:100px;
+  left:435px;
+}
+
+.box4 {
+  background-color:lightskyblue;
+  height:50px;
+  width:50px;
+  position:fixed;
+  bottom:220px;
+  left:100px;
+}
+
+.box5 {
+  background-color:lightskyblue;
+  height:50px;
+  width:50px;
+  position:fixed;
+  bottom:292px;
+  right:100px;
+}
+
+.box6 {
+  background-color:lightskyblue;
+  height:50px;
+  width:50px;
+  position:fixed;
+  top:186px;
+  left:500px;
+}
+
+.box7 {
+  background-color:plum;
+  height:50px;
+  width:50px;
+  position:fixed;
+  top:285px;
+  left:325px;
+}
+
+.box8 {
+  background-color:lightskyblue;
+  height:50px;
+  width:50px;
+  position:fixed;
+  bottom:173px;
+  right:480px;
+}
+
+.box9 {
+  background-color:slateblue;
+  height:50px;
+  width:50px;
+  position:fixed;
+  bottom:70px;
+  right:260px;
+}
+
+.box10 {
+  background-color:plum;
+  height:50px;
+  width:50px;
+  position:fixed;
+  top:330px;
+  right:300px;
+}

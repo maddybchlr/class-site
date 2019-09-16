@@ -1,0 +1,61 @@
+.stanza1 {
+  position: absolute;
+  width: 210px;
+  height: 210px;
+  font-size: 11pt;
+  color:darkslateblue;
+  top:50%;
+  left:260px;
+  transform:translateY(-50%);
+}
+
+.stanza2 {
+  position: absolute;
+  width: 210px;
+  height: 210px;
+  font-size: 11pt;
+  color:darkslateblue;
+  top:50%;
+  left:490px;
+  transform:translateY(-50%);
+}
+
+.stanza3 {
+  position: absolute;
+  width: 210px;
+  height: 210px;
+  font-size: 11pt;
+  color:darkslateblue;
+  top:50%;
+  left:720px;
+  transform:translateY(-50%);
+}
+
+.stanza4 {
+  position: absolute;
+  width: 210px;
+  height: 210px;
+  font-size: 11pt;
+  color:darkslateblue;
+  top:50%;
+  left:950px;
+  transform:translateY(-50%);
+}
+
+.stanzacolor {
+  position:absolute;
+  display:flex;
+  background: hotpink;
+  height:90px;
+  width:920px;
+  transition: all .5s ease;
+  font-family:arial black;
+  font-size:40pt;
+  text-align:center;
+  top:217px;
+  left:242px;
+}
+
+.stanzacolor:hover {
+  height: 264px;
+}

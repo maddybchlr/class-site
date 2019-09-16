@@ -1,0 +1,28 @@
+a {
+  font-family: Trebuchet MS;
+  color: slateblue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.poem-phases-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.poem-phase {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:50px;
+  width: 200px;
+  margin:20px;
+  background:lavender;
+  border-radius: 10px;
+  font-family: Trebuchet MS;
+}

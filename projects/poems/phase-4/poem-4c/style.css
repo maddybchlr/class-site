@@ -1,0 +1,25 @@
+p {
+  font-family:sans-serif;
+  height:100%;
+  width:100%;
+  /* background-color:mistyrose; */
+  font-size:30.3pt;
+  text-align:justify;
+  line-height:48px;
+  margin-left:0px;
+  margin-top:-8px;
+  margin-bottom:-20px;
+}
+
+.title {
+  position:fixed;
+  font-family:sans-serif;
+  background-color:cornflowerblue;
+  font-size:15pt;
+  text-align:center;
+  width:336px;
+  height:336px;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%)
+}
