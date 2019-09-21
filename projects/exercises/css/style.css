@@ -1,0 +1,29 @@
+  p {
+    color: green;
+    font-family: cursive;
+    border: 2px dotted blue;
+    background: lightgreen;
+    width: 500px;
+    display:block;
+    margin: 40px;
+    padding: 10px;
+  }
+
+  .body-p {
+    font-size:20px;
+    margin: 40px;
+  }
+
+.square {
+  background: lightblue;
+  height:40px;
+  width: 40px;
+  margin: 20px;
+}
+
+.square2 {
+  background: green;
+  height:15px;
+  width: 500px;
+  margin: 40px;
+}
