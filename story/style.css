@@ -3,15 +3,29 @@ body {
   animation: background 5s steps(1,end) infinite;
 }
 
-p {
+.title {
   position:relative;
-  top:-64px;
+  top:15px;
   text-decoration:none;
   font-family:lexend deca;
   font-size:60pt;
   animation:title 5s steps(1,end) infinite;
   -webkit-text-stroke: 2.2px black;
 }
+
+/* .next {
+  position:absolute;
+  height:100vh;
+  width:220px;
+  right:0px;
+}
+
+.previous {
+  position:absolute;
+  height:100vh;
+  width:220px;
+  left:0px;
+} */
 
 .bigbox {
   position:fixed;
@@ -79,6 +93,8 @@ p {
 .bigbox,
 .sidebar,
 .secbox,
-.titlebox {
+.titlebox,
+.next,
+.previous {
   /* border:2px white solid; */
 }

@@ -6,8 +6,8 @@ p {
   position:relative;
   font-family:prompt;
   font-size:16pt;
-  /* animation:lighten 4s ease-in;
-  animation-fill-mode:forwards; */
+  animation:lighten 4s ease-in;
+  animation-fill-mode:forwards;
 }
 
 .bigbox {
@@ -73,6 +73,6 @@ p {
 }
 
 @keyframes lighten {
-  0% {background-color:black}
-  100% {background-color:red}
+  0% {color:black}
+  100% {color:red}
 }

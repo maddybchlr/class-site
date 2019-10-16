@@ -6,17 +6,18 @@ p {
   position:relative;
   font-family:prompt;
   font-size:16pt;
+  animation: text 4s linear infinite;
 }
 
 .sun {
   position:absolute;
   left:350px;
-  bottom:310px;
+  bottom:285px;
   height:100px;
   width:100px;
   border-radius:100%;
   border:2px black solid;
-	transform-origin: 0% 437%;
+	transform-origin: 0% 439%;
   animation: rotate 4s linear infinite;
 }
 
@@ -30,7 +31,7 @@ p {
 
 .contentbox {
   position: relative;
-  height:550px;
+  height:500px;
   width:700px;
   top:50%;
   left:50%;
@@ -88,4 +89,13 @@ p {
   62.5% {background-color:black}
   90.625% {background-color:red}
   100% {background-color:red}
+}
+
+@keyframes text {
+  0% {color:black}
+  3.125% {color:black}
+  37.5% {color:red}
+  62.5% {color:red}
+  90.625% {color:black}
+  100% {color:black}
 }

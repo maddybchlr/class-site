@@ -10,16 +10,16 @@ p {
 
 .person1 {
   position:absolute;
-  height:950px;
-  left:-220px;
+  height:920px;
+  left:-190px;
   bottom:-550px;
   z-index:0;
 }
 
 .person2 {
   position:absolute;
-  height:800px;
-  right:70px;
+  height:770px;
+  right:80px;
   bottom:-410px;
   z-index:1;
 }
@@ -29,7 +29,7 @@ img.car1 {
   animation-fill-mode:forwards;
   position:absolute;
   height:130px;
-  bottom:70px;
+  bottom:60px;
 }
 
 img.car2 {
@@ -39,7 +39,7 @@ img.car2 {
   left:1100px;
   position:absolute;
   height:120px;
-  bottom:70px;
+  bottom:60px;
 }
 
 img.car6 {
@@ -48,7 +48,7 @@ img.car6 {
   animation-delay:1.5s;
   position:absolute;
   left:1100px;
-  bottom:70px;
+  bottom:60px;
   height:160px;
 }
 
@@ -58,7 +58,7 @@ img.car5 {
   animation-delay:1.8s;
   position:absolute;
   left:1100px;
-  bottom:150px;
+  bottom:140px;
   height:100px;
 }
 
@@ -68,7 +68,7 @@ img.car3 {
   animation-delay:.7s;
   position:absolute;
   left:1100px;
-  bottom:150px;
+  bottom:140px;
   height:150px;
 }
 
@@ -78,7 +78,7 @@ img.car4 {
   animation-delay:1.2s;
   position:absolute;
   left:1100px;
-  bottom:150px;
+  bottom:140px;
   height:100px;
 }
 
@@ -96,7 +96,7 @@ img:hover {
 
 .contentbox {
   position: relative;
-  height:550px;
+  height:500px;
   width:700px;
   top:50%;
   left:50%;
