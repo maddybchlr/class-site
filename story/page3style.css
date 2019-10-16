@@ -1,0 +1,119 @@
+body {
+  margin:0;
+}
+
+p {
+  position:relative;
+  font-family:prompt;
+  font-size:16pt;
+}
+
+img {
+  position:absolute;
+  height:250px;
+  bottom:0;
+  opacity:0;
+  animation:appear .1s ease;
+  animation-fill-mode:forwards;
+}
+
+.person1 {
+  bottom:25px;
+  left:0px;
+  animation-delay:.5s;
+}
+
+.person2 {
+  bottom:0px;
+  right:45px;
+  height:230px;
+  animation-delay:4.25s;
+}
+
+.person3 {
+  bottom:0px;
+  left:182px;
+  height:230px;
+  animation-delay:2s;
+}
+
+.person6 {
+  bottom:50px;
+  right:343px;
+  height:230px;
+  animation-delay:3.5s;
+}
+
+.person7 {
+  bottom:0px;
+  right:230px;
+  height:240px;
+  animation-delay:2.75s;
+}
+
+.person10 {
+  bottom:50px;
+  right:130px;
+  height:225px;
+  animation-delay:1.25s;
+}
+
+.bigbox {
+  position:fixed;
+  display:flex;
+  height:100vh;
+  width:80vw;
+  right:0;
+}
+
+.contentbox {
+  position: relative;
+  height:550px;
+  width:700px;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  text-align:center;
+}
+
+.sidebar {
+  position:fixed;
+  display:flex;
+  height:100vh;
+  width:19.5vw;
+  left:0;
+}
+
+.secbox {
+  position: relative;
+  display:flex;
+  flex-direction:column;
+  height:95%;
+  width:86%;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.seclink {
+  position:relative;
+  border:1.5px black solid;
+  height:28px;
+  margin-bottom:17px;
+}
+
+.seclink:hover {
+  background-color: black;
+}
+
+.bigbox,
+.sidebar,
+.secbox,
+.contentbox {
+  /* border:2px white solid; */
+}
+
+@keyframes appear {
+  0% {opacity:0}
+  100% {opacity:1}
+}

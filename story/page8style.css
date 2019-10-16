@@ -1,0 +1,79 @@
+body {
+  margin:0;
+}
+
+p {
+  position:relative;
+  font-family:prompt;
+  font-size:16pt;
+  bottom:0;
+}
+
+img.hand {
+  position:absolute;
+  height:450px;
+  left:45%;
+  transform:translateX(-45%);
+  animation: blink 1.1s steps(1,end) infinite;
+}
+
+.bigbox {
+  position:fixed;
+  display:flex;
+  height:100vh;
+  width:80vw;
+  right:0;
+}
+
+.contentbox {
+  position: relative;
+  height:550px;
+  width:700px;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  text-align:center;
+}
+
+.sidebar {
+  position:fixed;
+  display:flex;
+  height:100vh;
+  width:19.5vw;
+  left:0;
+}
+
+.secbox {
+  position: relative;
+  display:flex;
+  flex-direction:column;
+  height:95%;
+  width:86%;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.seclink {
+  position:relative;
+  border:1.5px black solid;
+  height:28px;
+  margin-bottom:17px;
+}
+
+.seclink:hover {
+  background-color: black;
+}
+
+.bigbox,
+.sidebar,
+.secbox,
+.contentbox {
+  /* border:2px white solid; */
+}
+
+@keyframes blink {
+  0% {opacity:1}
+  60% {opacity:0}
+  100% {opacity:0}
+}

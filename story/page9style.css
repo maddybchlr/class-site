@@ -1,0 +1,91 @@
+body {
+  margin:0;
+}
+
+p {
+  position:relative;
+  font-family:prompt;
+  font-size:16pt;
+}
+
+.sun {
+  position:absolute;
+  left:350px;
+  bottom:310px;
+  height:100px;
+  width:100px;
+  border-radius:100%;
+  border:2px black solid;
+	transform-origin: 0% 437%;
+  animation: rotate 4s linear infinite;
+}
+
+.bigbox {
+  position:fixed;
+  display:flex;
+  height:100vh;
+  width:80vw;
+  right:0;
+}
+
+.contentbox {
+  position: relative;
+  height:550px;
+  width:700px;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  text-align:center;
+  animation:value 4s linear infinite;
+  overflow:hidden;
+}
+
+.sidebar {
+  position:fixed;
+  display:flex;
+  height:100vh;
+  width:19.5vw;
+  left:0;
+}
+
+.secbox {
+  position: relative;
+  display:flex;
+  flex-direction:column;
+  height:95%;
+  width:86%;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.seclink {
+  position:relative;
+  border:1.5px black solid;
+  height:28px;
+  margin-bottom:17px;
+}
+
+.seclink:hover {
+  background-color: black;
+}
+
+.bigbox,
+.sidebar,
+.secbox,
+.contentbox {
+  /* border:2px white solid; */
+}
+
+@keyframes rotate {
+  to { transform: rotate(1turn); }
+}
+
+@keyframes value {
+  0% {background-color:red}
+  3.125% {background-color:red}
+  37.5% {background-color:black}
+  62.5% {background-color:black}
+  90.625% {background-color:red}
+  100% {background-color:red}
+}

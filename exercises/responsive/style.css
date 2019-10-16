@@ -1,0 +1,57 @@
+body {
+  background-color:seagreen;
+}
+
+p {
+  font-size:70pt;
+  font-family:dosis;
+  color:seagreen;
+  margin-top:0;
+  transition:all 1s ease;
+}
+
+.shape {
+  position:absolute;
+  display:flex;
+  height:400px;
+  width:400px;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  background-color:pink;
+  border-radius:100%;
+  border:2px pink solid;
+  justify-content:center;
+  align-items:center;
+  transition:all 1s ease;
+}
+
+.text {
+  /* border:1px black solid; */
+  position:relative;
+  height:120px;
+  width:220px;
+  text-align:center;
+  transition:all 1s ease;
+}
+
+@media screen and (max-width: 800px) {
+  .shape {
+    border-radius:100%;
+    height:100px;
+    width:100px;
+    top:85%;
+    left:15%;
+    background-color:seagreen;
+  }
+
+  .text {
+    height:30px;
+    width:60px;
+  }
+
+  p {
+    font-size:16pt;
+    color:seagreen;
+  }
+}
