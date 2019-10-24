@@ -18,7 +18,7 @@ a {
   text-decoration:underline;
 }
 
-.blank:hover {
+.websgrain:hover {
   text-decoration:underline;
 }
 
@@ -57,7 +57,7 @@ a {
 .shifting,
 .rant,
 .netart,
-.blank {
+.websgrain {
   /* border:2px dotted blue; */
   font-family:prompt;
   font-size:14pt;
@@ -85,7 +85,7 @@ a {
   animation-delay:.8s;
 }
 
-.blank {
+.websgrain {
   animation:appear .2s ease;
   animation-fill-mode:forwards;
   animation-delay:1s;
