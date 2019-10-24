@@ -2,6 +2,22 @@ a {
   text-decoration:none;
 }
 
+.poems:hover {
+  text-decoration:underline;
+}
+
+.story:hover {
+  text-decoration:underline;
+}
+
+.final:hover {
+  text-decoration:underline;
+}
+
+.netart:hover {
+  text-decoration:underline;
+}
+
 .q1 {
   top:0;
   left:0;

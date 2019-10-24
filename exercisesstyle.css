@@ -2,6 +2,30 @@ a {
   text-decoration:none;
 }
 
+.article:hover {
+  text-decoration:underline;
+}
+
+.flexbox:hover {
+  text-decoration:underline;
+}
+
+.animation:hover {
+  text-decoration:underline;
+}
+
+.interaction:hover {
+  text-decoration:underline;
+}
+
+.responsive:hover {
+  text-decoration:underline;
+}
+
+.javascript:hover {
+  text-decoration:underline;
+}
+
 .q1 {
   top:0;
   left:0;

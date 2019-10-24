@@ -85,16 +85,16 @@ a {
   bottom:15px;
   left:15px;
   transition:.2s ease;
-  border:2px solid #FB5D42;
-  color:#FB5D42;
+  border:2px solid #8951bd;
+  color:#8951bd;
 }
 
 .readings:hover {
   top:15px;
   right:15px;
   transition:.2s ease;
-  border:2px solid #FB5D42;
-  color:#FB5D42;
+  border:2px solid #019CB8;
+  color:#019CB8;
 }
 
 .q1,

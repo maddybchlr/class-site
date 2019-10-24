@@ -2,6 +2,26 @@ a {
   text-decoration:none;
 }
 
+.handmade:hover {
+  text-decoration:underline;
+}
+
+.shifting:hover {
+  text-decoration:underline;
+}
+
+.rant:hover {
+  text-decoration:underline;
+}
+
+.netart:hover {
+  text-decoration:underline;
+}
+
+.blank:hover {
+  text-decoration:underline;
+}
+
 .q1 {
   top:0;
   left:0;
