@@ -23,18 +23,20 @@ a {
 }
 
 .projects {
+  display:flex;
   position:absolute;
   height:40%;
   width:50%;
   bottom:-1px;
   right:-1px;
-  text-align:center;
   font-size:14pt;
-  line-height:109px;
   transition:.2s ease;
+  align-items:center;
+  justify-content:center;
 }
 
 .exercises {
+  display:flex;
   position:absolute;
   height:40%;
   width:50%;
@@ -42,11 +44,13 @@ a {
   left:-1px;
   text-align:center;
   font-size:14pt;
-  line-height:109px;
   transition:.2s ease;
+  align-items:center;
+  justify-content:center;
 }
 
 .readings {
+  display:flex;
   position:absolute;
   height:40%;
   width:50%;
@@ -54,23 +58,28 @@ a {
   right:-1px;
   text-align:center;
   font-size:14pt;
-  line-height:109px;
   transition:.2s ease;
+  align-items:center;
+  justify-content:center;
 }
 
 .hw {
+  display:flex;
   position:absolute;
   height:40%;
   width:50%;
   background-color:black;
   border:2px solid black;
-  top:-1px;
-  left:-1px;
+  top:15px;
+  left:15px;
   text-align:center;
   font-family:prompt;
   font-size:14pt;
   color:#FFE3C8;
-  line-height:109px;
+  animation: hw .2s ease;
+  animation-fill-mode:forwards;
+  align-items:center;
+  justify-content:center;
 }
 
 .projects:hover {
@@ -85,16 +94,16 @@ a {
   bottom:15px;
   left:15px;
   transition:.2s ease;
-  border:2px solid #FB5D42;
-  color:#FB5D42;
+  border:2px solid #8951bd;
+  color:#8951bd;
 }
 
 .readings:hover {
   top:15px;
   right:15px;
   transition:.2s ease;
-  border:2px solid #FB5D42;
-  color:#FB5D42;
+  border:2px solid #019CB8;
+  color:#019CB8;
 }
 
 .q1,
@@ -113,4 +122,9 @@ a {
   color: black;
   border:2px solid black;
   font-family:prompt;
+}
+
+@keyframes hw {
+  0% {top:15px; left:15px}
+  100% {top:-1px; left:-1px;}
 }
