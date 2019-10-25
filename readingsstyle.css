@@ -42,15 +42,41 @@ a {
   right:0;
 }
 
-.list {
+.popup {
+  position:absolute;
+  /* border:2px solid purple; */
+  height:3.8%;
+  width:243px;
+  left:50%;
+  transform:translateX(-50%);
+  bottom:0;
+  padding:20px;
+  font-family:prompt;
+  font-size:14pt;
+  color:#019CB8;
+  display:none;
+}
+
+.list1 {
   position:absolute;
   display:flex;
-  flex-direction:column;
+  flex-direction:row;
   /* border:2px solid blue; */
-  height:30%;
-  width:24%;
-  left:0px;
-  bottom:11.7%;
+  height:3.8%;
+  width:75%;
+  left:24.7%;
+  bottom:24%;
+}
+
+.list2 {
+  position:absolute;
+  display:flex;
+  flex-direction:row;
+  /* border:2px solid blue; */
+  height:3.8%;
+  width:75%;
+  left:24.7%;
+  bottom:20%;
 }
 
 .handmade,
@@ -218,3 +244,13 @@ a {
   0% {opacity:0}
   100% {opacity:1}
 }
+
+@media screen and (max-width: 862px) {
+  .rant, .netart, .websgrain, .handmade, .shifting {
+    display:none;
+  }
+
+@media screen and (max-width: 862px) {
+  .popup {
+    display:block;
+  }

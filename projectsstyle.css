@@ -41,12 +41,12 @@ a {
 .list {
   position:absolute;
   display:flex;
-  flex-direction:column;
+  flex-direction:row;
   /* border:2px solid blue; */
-  height:23%;
-  width:24%;
-  left:0px;
-  bottom:38.7%;
+  height:3.8%;
+  width:55%;
+  left:24.7%;
+  top:24%;
 }
 
 .poems,
