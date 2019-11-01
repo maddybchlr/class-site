@@ -1,7 +1,6 @@
 .notes {
   width: 660px;
-  padding: 30px;
-  padding-top:23px;
+  padding: 50px;
 }
 
 a {
@@ -19,7 +18,7 @@ a {
   font-family:prompt;
   font-size:14pt;
   /* border:1px solid red; */
-  background-color:#EDECE8;
+  background-color:#FFE3C8;
   padding-bottom:16px;
   padding-top:16px;
 }
@@ -54,7 +53,7 @@ a {
 
 a {
   text-decoration:none;
-  color:#6092CD;
+  color:#019CB8;
 }
 
 a:hover {
