@@ -53,7 +53,7 @@ a {
   padding:20px;
   font-family:prompt;
   font-size:14pt;
-  color:#019CB8;
+  color:#6092CD;
   display:none;
 }
 
@@ -280,7 +280,7 @@ a {
   100% {opacity:1}
 }
 
-@media screen and (max-width: 862px) {
+@media screen and (max-width: 845px) {
   .rant, .netart, .websgrain, .handmade, .shifting {
     display:none;
   }
