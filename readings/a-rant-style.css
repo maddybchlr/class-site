@@ -1,6 +1,7 @@
 .notes {
   width: 650px;
-  padding: 50px;
+  padding: 30px;
+  padding-top:23px;
 }
 
 .navigation {
@@ -13,7 +14,7 @@
   font-family:prompt;
   font-size:14pt;
   /* border:1px solid red; */
-  background-color:#FFE3C8;
+  background-color:#EDECE8;
   padding-bottom:16px;
   padding-top:16px;
 }
@@ -48,7 +49,7 @@
 
 a {
   text-decoration:none;
-  color:#019CB8;
+  color:#6092CD;
 }
 
 a:hover {
