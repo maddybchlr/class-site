@@ -35,6 +35,18 @@ a {
   justify-content:center;
 }
 
+.projects2 {
+  display:flex;
+  position:absolute;
+  height:40%;
+  width:50%;
+  bottom:-1px;
+  right:-1px;
+  background-color:#F16D53;
+  border:2px #F16D53 solid;
+  z-index:-1;
+}
+
 .exercises {
   display:flex;
   position:absolute;
@@ -47,6 +59,18 @@ a {
   transition:.2s ease;
   align-items:center;
   justify-content:center;
+}
+
+.exercises2 {
+  display:flex;
+  position:absolute;
+  height:40%;
+  width:50%;
+  bottom:-1px;
+  left:-1px;
+  background-color:#F9C53E;
+  border:2px #F9C53E solid;
+  z-index:-1;
 }
 
 .readings {
@@ -63,47 +87,71 @@ a {
   justify-content:center;
 }
 
+.readings2 {
+  display:flex;
+  position:absolute;
+  height:40%;
+  width:50%;
+  top:-1px;
+  right:-1px;
+  background-color:#6092CD;
+  border:2px #6092CD solid;
+  z-index:-1;
+}
+
 .hw {
   display:flex;
   position:absolute;
   height:40%;
   width:50%;
-  background-color:black;
+  /* background-color:black; */
   border:2px solid black;
   top:15px;
   left:15px;
   text-align:center;
   font-family:prompt;
   font-size:14pt;
-  color:#FFE3C8;
+  color:black;
   animation: hw .2s ease;
   animation-fill-mode:forwards;
   align-items:center;
   justify-content:center;
 }
 
+.hw2 {
+  display:flex;
+  position:absolute;
+  height:40%;
+  width:50%;
+  top:-1px;
+  left:-1px;
+  background-color:black;
+  border:2px black solid;
+  z-index:-1;
+}
+
 .projects:hover {
   bottom:15px;
   right:15px;
   transition:.2s ease;
-  border:2px solid #FB5D42;
-  color:#FB5D42;
+  /* border:2px solid #818121;
+  color:#818121; */
 }
 
 .exercises:hover {
   bottom:15px;
   left:15px;
   transition:.2s ease;
-  border:2px solid #8951bd;
-  color:#8951bd;
+  /* border:2px solid #818121;
+  color:#818121; */
 }
 
 .readings:hover {
   top:15px;
   right:15px;
   transition:.2s ease;
-  border:2px solid #019CB8;
-  color:#019CB8;
+  /* border:2px solid #818121;
+  color:#818121; */
 }
 
 .q1,
@@ -124,7 +172,7 @@ a {
   font-family:prompt;
 }
 
-@keyframes hw {
+/* @keyframes hw {
   0% {top:15px; left:15px}
   100% {top:-1px; left:-1px;}
-}
+} */
