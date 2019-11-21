@@ -1,7 +1,7 @@
   @import url("https://use.typekit.net/twb5iij.css");
 
 html{
-  cursor: url("emoji2.png"), auto;
+  cursor: url("cursor.png"), auto;
   background-color:white;
 }
 
@@ -39,9 +39,9 @@ html{
   text-align: center;
   height:140px;
   width:280px;
-  top:58.4%;
-  right:5.8%;
-  transform:translate(-5.8%,-58.4%);
+  top:60.3%;
+  right:5.9%;
+  transform:translate(-5.9%,-60.3%);
   cursor: move;
   display:flex;
   justify-content: center;
@@ -119,9 +119,9 @@ html{
   text-align: center;
   height:140px;
   width:185px;
-  top:60.4%;
+  top:58.2%;
   left:30.3%;
-  transform:translate(-30.3%,-60.4%);
+  transform:translate(-30.3%,-58.1%);
   cursor: move;
   display:flex;
   justify-content: center;
@@ -136,8 +136,8 @@ html{
   height:140px;
   width:247px;
   bottom:17.9%;
-  left:62.4%;
-  transform:translate(-62.4%,-17.9%);
+  left:63%;
+  transform:translate(-63%,-17.9%);
   cursor: move;
   display:flex;
   justify-content: center;
@@ -151,9 +151,9 @@ html{
   text-align: center;
   height:140px;
   width:180px;
-  bottom:7.8%;
+  bottom:9.3%;
   left:18.6%;
-  transform:translate(-18.6%,-7.8%);
+  transform:translate(-18.6%,-9.3%);
   cursor: move;
   display:flex;
   justify-content: center;
@@ -168,8 +168,8 @@ html{
   height:140px;
   width:185px;
   bottom:7.8%;
-  right:12%;
-  transform:translate(-12%,-7.8%);
+  right:12.1%;
+  transform:translate(-12.1%,-7.8%);
   cursor: move;
   display:flex;
   justify-content: center;
@@ -182,5 +182,5 @@ html{
 }
 
 #gif:hover {
-  cursor: url("emoji2.png"), auto;
+  cursor: url("cursor.png"), auto;
 }
