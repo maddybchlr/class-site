@@ -14,7 +14,7 @@ a {
   text-decoration:underline;
 }
 
-.netart:hover {
+.thankyou:hover {
   text-decoration:underline;
 }
 
@@ -38,7 +38,18 @@ a {
   right:0;
 }
 
-.list {
+.list1 {
+  position:absolute;
+  display:flex;
+  flex-direction:row;
+  /* border:2px solid blue; */
+  height:3.8%;
+  width:50%;
+  left:23.5%;
+  top:18.3%;
+}
+
+.list2 {
   position:absolute;
   display:flex;
   flex-direction:row;
@@ -51,7 +62,8 @@ a {
 
 .poems,
 .story,
-.final {
+.final,
+.thankyou {
   /* border:2px dotted blue; */
   font-family:prompt;
   font-size:14pt;
@@ -77,6 +89,12 @@ a {
   animation:appear .2s ease;
   animation-fill-mode:forwards;
   animation-delay:.4s
+}
+
+.thankyou {
+  animation:appear .2s ease;
+  animation-fill-mode:forwards;
+  animation-delay:.8s
 }
 
 .projects {
