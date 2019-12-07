@@ -6,7 +6,7 @@
 
 a {
   text-decoration:none;
-  color: #019CB8;
+  color: #59A1D1;
 }
 
 .navigation {
@@ -19,7 +19,7 @@ a {
   font-family:prompt;
   font-size:14pt;
   /* border:1px solid red; */
-  background-color:#FCF0DF;
+  background-color:#F3EEE7;
   padding-bottom:16px;
   padding-top:16px;
 }
@@ -54,7 +54,7 @@ a {
 
 a {
   text-decoration:none;
-  color:#6092CD;
+  color:#59A1D1;
 }
 
 a:hover {

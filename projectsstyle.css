@@ -38,6 +38,21 @@ a {
   right:0;
 }
 
+.popup {
+  position:absolute;
+  /* border:2px solid purple; */
+  height:3.8%;
+  width:243px;
+  left:50%;
+  transform:translateX(-50%);
+  bottom:0;
+  padding:20px;
+  font-family:prompt;
+  font-size:14pt;
+  color:#4BA362;
+  display:none;
+}
+
 .list1 {
   position:absolute;
   display:flex;
@@ -67,7 +82,7 @@ a {
   /* border:2px dotted blue; */
   font-family:prompt;
   font-size:14pt;
-  color:#F16D53;
+  color:#4BA362;
   text-align:right;
   z-index:1;
   opacity:0;
@@ -122,8 +137,8 @@ a {
   width:50%;
   bottom:-1px;
   right:-1px;
-  background-color:#F16D53;
-  border:2px #F16D53 solid;
+  background-color:#4BA362;
+  border:2px #4BA362 solid;
   z-index:-1;
 }
 
@@ -148,8 +163,8 @@ a {
   width:50%;
   bottom:-1px;
   left:-1px;
-  background-color:#FFC545;
-  border:2px #FFC545 solid;
+  background-color:#F37333;
+  border:2px #F37333 solid;
   z-index:-1;
 }
 
@@ -174,8 +189,8 @@ a {
   width:50%;
   top:-1px;
   right:-1px;
-  background-color:#6092CD;
-  border:2px #6092CD solid;
+  background-color:#59A1D1;
+  border:2px #59A1D1 solid;
   z-index:-1;
 }
 
@@ -258,3 +273,13 @@ a {
   0% {opacity:0}
   100% {opacity:1}
 }
+
+@media screen and (max-width: 700px) {
+  .poems, .story, .final, .thankyou {
+    display:none;
+  }
+
+@media screen and (max-width: 700px) {
+  .popup {
+    display:block;
+  }
