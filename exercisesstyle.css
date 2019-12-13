@@ -57,7 +57,7 @@ a {
   padding:20px;
   font-family:prompt;
   font-size:14pt;
-  color:#F37333;
+  color:#2DA84D;
   display:none;
 }
 
@@ -93,7 +93,7 @@ a {
   /* border:2px dotted blue; */
   font-family:prompt;
   font-size:14pt;
-  color:#F37333;
+  color:#2DA84D;
   text-align:left;
   z-index:1;
   opacity:0;
@@ -159,8 +159,8 @@ a {
   width:50%;
   bottom:-1px;
   right:-1px;
-  background-color:#4BA362;
-  border:2px #4BA362 solid;
+  background-color:#EF4F29;
+  border:2px #EF4F29 solid;
   z-index:-1;
 }
 
@@ -190,8 +190,8 @@ a {
   width:50%;
   bottom:-1px;
   left:-1px;
-  background-color:#F37333;
-  border:2px #F37333 solid;
+  background-color:#2DA84D;
+  border:2px #2DA84D solid;
   z-index:-1;
 }
 
@@ -216,8 +216,8 @@ a {
   width:50%;
   top:-1px;
   right:-1px;
-  background-color:#59A1D1;
-  border:2px #59A1D1 solid;
+  background-color:#4776BB;
+  border:2px #4776BB solid;
   z-index:-1;
 }
 
