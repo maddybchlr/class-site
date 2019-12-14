@@ -14,9 +14,11 @@
   font-family:prompt;
   font-size:14pt;
   /* border:1px solid red; */
-  background-color:#F3EEE7;
+  /* background-color:#F3EEE7; */
   padding-bottom:16px;
   padding-top:16px;
+  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQYV2NkYGD4z8DAwMgABXAGNgGwSgwVAFbmAgXQdISfAAAAAElFTkSuQmCC) repeat;
+  z-index:1;
 }
 
 .back,
@@ -49,9 +51,25 @@
 
 a {
   text-decoration:none;
-  color:#4776BB;
+  color:black;
 }
 
 a:hover {
   text-decoration:underline;
+}
+
+#patternbehind {
+  position:fixed;
+  display:flex;
+  height:30px;
+  width:100vw;
+  right:0;
+  bottom:0;
+  font-family:prompt;
+  font-size:14pt;
+  /* border:1px solid red; */
+  background-color:#F3EEE7;
+  padding-bottom:16px;
+  padding-top:16px;
+  background-color:#F3EEE7;
 }
