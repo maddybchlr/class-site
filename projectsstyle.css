@@ -53,17 +53,30 @@ a {
   display:none;
 }
 
+.list1 {
+  position:absolute;
+  display:flex;
+  flex-direction:row;
+  /* border:2px solid blue; */
+  height:3.8%;
+  width:50%;
+  left:23.6%;
+  top:10.2%;
+  /* left:23.5%;
+  bottom:14%; */
+}
+
 .list2 {
   position:absolute;
   display:flex;
   flex-direction:row;
   /* border:2px solid blue; */
   height:3.8%;
-  width:55%;
+  width:50%;
+  left:23.6%;
+  top:14%;
   /* left:23.5%;
-  top:12.1%; */
-  left:23.5%;
-  bottom:11.9%;
+  bottom:10.2%; */
 }
 
 .poems,
